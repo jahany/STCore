@@ -10,3 +10,16 @@ D:\Projects\KAPP\KAPP\STCore\obj\Release\net6.0\STCore.dll
 D:\Projects\KAPP\KAPP\STCore\obj\Release\net6.0\refint\STCore.dll
 D:\Projects\KAPP\KAPP\STCore\obj\Release\net6.0\STCore.pdb
 D:\Projects\KAPP\KAPP\STCore\obj\Release\net6.0\ref\STCore.dll
+D:\Projects\STCore\bin\Release\net6.0\STCore.deps.json
+D:\Projects\STCore\bin\Release\net6.0\STCore.dll
+D:\Projects\STCore\bin\Release\net6.0\STCore.pdb
+D:\Projects\STCore\obj\Release\net6.0\STCore.csproj.AssemblyReference.cache
+D:\Projects\STCore\obj\Release\net6.0\STCore.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\STCore\obj\Release\net6.0\STCore.AssemblyInfoInputs.cache
+D:\Projects\STCore\obj\Release\net6.0\STCore.AssemblyInfo.cs
+D:\Projects\STCore\obj\Release\net6.0\STCore.csproj.CoreCompileInputs.cache
+D:\Projects\STCore\obj\Release\net6.0\STCore.sourcelink.json
+D:\Projects\STCore\obj\Release\net6.0\STCore.dll
+D:\Projects\STCore\obj\Release\net6.0\refint\STCore.dll
+D:\Projects\STCore\obj\Release\net6.0\STCore.pdb
+D:\Projects\STCore\obj\Release\net6.0\ref\STCore.dll
