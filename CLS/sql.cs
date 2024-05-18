@@ -483,7 +483,7 @@ namespace STCore.SQL
             {
                 IQSV.Fill_Cmd(dataaccesslayer, p);
             }
-            SqlDataReader dr =await dataaccesslayer.executereader(sql);///Null Report
+            SqlDataReader dr = await dataaccesslayer.executereader(sql);///Null Report
 
             StringBuilder sb = new StringBuilder();
             try
@@ -1591,7 +1591,12 @@ namespace STCore.SQL
                 IQSV.Fill_Cmd(dataaccesslayer, p);
             }
             dataaccesslayer.cmd.CommandType = CommandType.StoredProcedure;
-            return dataaccesslayer.executescaler(CrudProcedureName).Result != null ? dataaccesslayer.executescaler(CrudProcedureName).Result.ToString() : "0";
+
+            object res = dataaccesslayer.executescaler(CrudProcedureName).Result;
+            if (res != null)
+                return res.ToString();
+            else
+                return "0";
         }
         public List<T> Select<T>(string CrudProcedureName, Cmd_Parameters p) where T : new()
         {
@@ -1780,7 +1785,7 @@ namespace STCore.SQL
             }
             dataaccesslayer.cmd.CommandType = CommandType.StoredProcedure;
             dataaccesslayer.cmd.Parameters.Clear();
-            SqlDataReader dr =await dataaccesslayer.executereader(CrudProcedureName);///Null Report
+            SqlDataReader dr = await dataaccesslayer.executereader(CrudProcedureName);///Null Report
 
             StringBuilder sb = new StringBuilder();
             try
